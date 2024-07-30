@@ -41,10 +41,6 @@ func flip_direction():
 		texture.flip_h = false
 
 
-func kill_enemy() -> void:
-	kill_and_score()
-
-
 func kill_and_score():
 	Globals.score += enemy_score
 	if can_spawn:

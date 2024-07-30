@@ -6,9 +6,8 @@
 [ext_resource type="Texture2D" uid="uid://c3uxxc07of56c" path="res://assets/Sprite Pack 2/4 - Robo Pumpkin/Standing (16 x 16).png" id="3_ulqhd"]
 [ext_resource type="PackedScene" uid="uid://cgj8h7s0lgeld" path="res://prefabs/hitbox.tscn" id="5_hwhf8"]
 
-[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_fgwny"]
-radius = 4.0
-height = 12.0
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_iehv0"]
+size = Vector2(11, 14)
 
 [sub_resource type="Animation" id="Animation_v6jp4"]
 length = 0.001
@@ -179,7 +178,7 @@ _data = {
 }
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_n85ur"]
-size = Vector2(6, 2)
+size = Vector2(4, 3)
 
 [node name="enemy" type="CharacterBody2D" groups=["enemies"]]
 position = Vector2(0, -8)
@@ -192,9 +191,9 @@ texture = ExtResource("1_mlf6r")
 hframes = 2
 
 [node name="collision" type="CollisionShape2D" parent="."]
-position = Vector2(0, 4)
+position = Vector2(-7.45654e-06, 2.5)
 rotation = 1.5708
-shape = SubResource("CapsuleShape2D_fgwny")
+shape = SubResource("RectangleShape2D_iehv0")
 debug_color = Color(0.918497, 6.79606e-05, 0.701914, 0.42)
 
 [node name="anim" type="AnimationPlayer" parent="."]

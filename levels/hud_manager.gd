@@ -39,8 +39,8 @@ func _on_clock_timer_timeout():
 	seconds -= 1
 	
 	timer_counter.text = str("%02d" % minutes) + ":" + str("%02d" % seconds)
-	
-	
+
+
 func reset_clock_timer():
 	minutes = default_minutes
 	seconds = default_seconds

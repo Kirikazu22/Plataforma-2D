@@ -1,0 +1,36 @@
+[gd_scene load_steps=5 format=3 uid="uid://j0dh1uobyeia"]
+
+[ext_resource type="Texture2D" uid="uid://cim1x6ln1qslq" path="res://assets/Sprite Pack 2/8 - Comrade Cheese Puff/Missile (16 x 8).png" id="1_hprbh"]
+[ext_resource type="Script" path="res://scripts/missile.gd" id="1_r840q"]
+
+[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_2o2oo"]
+radius = 4.0
+height = 12.0
+
+[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_hwytu"]
+radius = 5.0
+height = 14.0
+
+[node name="missile" type="AnimatableBody2D"]
+collision_layer = 8
+collision_mask = 3
+sync_to_physics = false
+script = ExtResource("1_r840q")
+
+[node name="collision" type="CollisionShape2D" parent="."]
+rotation = 1.5708
+shape = SubResource("CapsuleShape2D_2o2oo")
+
+[node name="sprite" type="Sprite2D" parent="."]
+texture = ExtResource("1_hprbh")
+
+[node name="collision_detection" type="Area2D" parent="."]
+collision_layer = 8
+collision_mask = 3
+
+[node name="collision" type="CollisionShape2D" parent="collision_detection"]
+rotation = 1.5708
+shape = SubResource("CapsuleShape2D_hwytu")
+debug_color = Color(0.938088, 0.249641, 1.92523e-07, 0.42)
+
+[connection signal="body_entered" from="collision_detection" to="." method="_on_collision_detection_body_entered"]
