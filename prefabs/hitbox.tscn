@@ -2,7 +2,7 @@
 
 [ext_resource type="Script" path="res://scripts/hitbox.gd" id="1_wxjrv"]
 
-[node name="hitbox" type="Area2D"]
+[node name="hitbox" type="Area2D" groups=["hitbox"]]
 collision_layer = 16
 script = ExtResource("1_wxjrv")
 

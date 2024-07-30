@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3 uid="uid://ce5deggxh7s6j"]
+
+[ext_resource type="AudioStream" uid="uid://l7h48wbg0qii" path="res://sounds/break_sfx.wav" id="1_vigu7"]
+
+[node name="destroy_sfx" type="AudioStreamPlayer"]
+stream = ExtResource("1_vigu7")
+pitch_scale = 2.28
