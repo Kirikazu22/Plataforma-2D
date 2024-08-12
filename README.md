@@ -1,5 +1,20 @@
 # Plataforma-2D
 
+Sistema: 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 Erros:
 -Morte do jogador
