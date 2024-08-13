@@ -2,9 +2,9 @@
 
 O sistema é composto por uma árvore de nós e cenas criadas separadamente, alguns dos nós são cenas, que mantêm a mesma estrutura de árvore de nós.
 Por exemplo, a cena do primeiro nível possui a cena do jogador e o jogador por sua vez possui sua estrutura de nós.
-
-* Para executar a cena principal pressione F5 no teclado;
-* Para executar a cena atual pressione F6.
+  
+. Para executar a cena principal pressione F5 no teclado;
+. Para executar a cena atual pressione F6.
 
 * Funcionalidades do Sistema:
 Para explicar o sistema é necessário primeiro explicar sua estrutura.
