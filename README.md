@@ -1,10 +1,10 @@
 # Plataforma-2D
 
-O sistema é composto por uma árvore de nós e cenas criadas separadamente, alguns dos nós são cenas, que mantêm a mesma estrutura de árvore de nós.
+O sistema é composto por uma árvore de nós e cenas criadas separadamente, alguns dos nós são cenas, que mantêm a mesma estrutura de árvore de nós.  
 Por exemplo, a cena do primeiro nível possui a cena do jogador e o jogador por sua vez possui sua estrutura de nós.
   
-Para executar a cena principal - F5;  
-Para executar a cena atual - F6.
+**Para executar a cena principal - F5;**  
+**Para executar a cena atual - F6.**  
 
 **Funcionalidades do Sistema:**  
 Para explicar o sistema é necessário primeiro explicar sua estrutura.  
@@ -18,7 +18,7 @@ funções e variáveos globais. (Singletons-Aula 18,Funcionalidades básicas da 
 Obs: O símbolo do quadrado significa que essa cena faz parte de um grupo, a claquete que é uma cena separada, o pergaminho que é um script e o olho indica a visibilidade.
 Clique em algum desses para ver mais detalhes.  
 
-Erros:
+**Erros:**  
 1. Morte do jogador
 O player não morre em condições normais, a exceção é quando cai no limbo (erro na criação do tween). Obs: Tween é uma transição que é demonstrada nos vídeos.
 
