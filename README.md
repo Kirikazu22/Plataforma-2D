@@ -39,4 +39,5 @@ sofrer dano (drop de moedas estilo sonic), mas o efeito colateral é que quando 
 *Acredito que a maior parte dos erros se deve à diferença de versões.*  
   
 *A maior parte das informações relevantes podem ser encontradas nos resumos disponiveís no google drive, também é possível encontar online informações sobre a linguagem utilizada 'GdScript'.*  
+  
 **link:** https://drive.google.com/drive/folders/1n84sA516w1iqNneqPOvXQcN9spUsxRVo?usp=drive_link
