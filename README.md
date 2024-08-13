@@ -15,8 +15,11 @@ Outro caso de exceção são os scripts singletons que devem ser pré-carregados
 funções e variáveos globais. (Funcionalidades básicas da Godot - Aula 1, Singletons - Aula 18).  
   
 ![image](https://github.com/user-attachments/assets/b7c0e026-5110-4e92-9f14-0d491ddfd4bd)  
-**Obs:** O símbolo do quadrado significa que essa cena faz parte de um grupo, a claquete que é uma cena separada, o pergaminho que é um script e o olho indica a visibilidade.
+**Figura 1:** O símbolo do quadrado significa que essa cena faz parte de um grupo, a claquete que é uma cena separada, o pergaminho que é um script e o olho indica a visibilidade.
 Clique em algum desses para ver mais detalhes.  
+
+![image](https://github.com/user-attachments/assets/6de1da1e-8df1-42cb-99ae-9088191d747c)  
+**Figura 2:** Como é possível ver no canto superior direito da tela, é possível conectar algum desses sinais 'NODE' ao script que desejar, algo que é referido nas descrições das aulas como conectar sinal.  
 
 **Erros:**  
 1. Morte do jogador
