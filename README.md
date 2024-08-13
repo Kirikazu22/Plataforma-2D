@@ -3,6 +3,9 @@
 O sistema é composto por uma árvore de nós e cenas criadas separadamente, alguns dos nós são cenas, que mantêm a mesma estrutura de árvore de nós.
 Por exemplo, a cena do primeiro nível possui a cena do jogador e o jogador por sua vez possui sua estrutura de nós.
 
+* Para executar a cena principal pressione F5 no teclado;
+* Para executar a cena atual pressione F6.
+
 * Funcionalidades do Sistema:
 Para explicar o sistema é necessário primeiro explicar sua estrutura.
 Existem cenas separadas para a tela inicial, tela de fim de jogo e o menu de pausa, além de outros que também são instaciadas através de scripts.
@@ -36,3 +39,5 @@ Esse erro se deve ao método demostrado no vídeo de número 31. Esse método co
 sofrer dano (drop de moedas estilo sonic), mas o efeito colateral é que quando é atingido, por exemplo prensado na parede por inimigo, ele a atravessa.
 
 * ACREDITO QUE A MAIOR PARTE DOS ERROS SE DEVE À DIFERENÇA DE VERSÕES.
+* A MAIOR PARTE DAS INFORMAÇÕES RELEVANTES PODEM SER ENCONTRADAS NOS RESUMOS DISPONIVEÍS NO GOOGLE DRIVE.
+
