@@ -5,9 +5,7 @@ O sistema é composto por uma árvore de nós e cenas criadas separadamente. Alg
 **Para executar a cena principal - F5;**  
 **Para executar a cena atual - F6.**  
 
-**Funcionalidades do Sistema:**  
-Para explicar o sistema é necessário primeiro explicar sua estrutura.  
-Existem cenas separadas para a tela inicial, tela de fim de jogo e o menu de pausa, além de outros que também são instaciadas através de scripts.
+**Funcionalidades do Sistema:** Para explicar o sistema é necessário primeiro explicar sua estrutura, que consiste em cenas separadas para a tela inicial, tela de fim de jogo e o menu de pausa, entre  outros que também são instaciadas através de scripts.
 Os scripts por sua vez constumam ser ligados aos nós principais de cenas que são instanciadas na cena principal, as exceções ficam por conta de nós que não
 possuem uma estrutura muito complexa e portanto não vale a pena que tenham uma cena separada, nesses casos o script é criado diratemente nesse nó na cena principal.  
 Outro caso de exceção são os scripts singletons que devem ser pré-carregados no sistema, não estão diretamente ligados a nenhum nó e se encarregam de tratar
