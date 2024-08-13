@@ -1,6 +1,6 @@
 # Plataforma-2D
 
-O sistema é composto por uma árvore de nós e cenas criadas separadamente, alguns dos nós são cenas, que mantêm a mesma estrutura de árvore de nós.  
+  O sistema é composto por uma árvore de nós e cenas criadas separadamente, alguns dos nós são cenas, que mantêm a mesma estrutura de árvore de nós.  
 Por exemplo, a cena do primeiro nível possui a cena do jogador e o jogador por sua vez possui sua estrutura de nós.
   
 **Para executar a cena principal - F5;**  
@@ -15,7 +15,7 @@ Outro caso de exceção são os scripts singletons que devem ser pré-carregados
 funções e variáveos globais. (Singletons-Aula 18,Funcionalidades básicas da Godot-Aula 1).  
 
 ![image](https://github.com/user-attachments/assets/b7c0e026-5110-4e92-9f14-0d491ddfd4bd)  
-Obs: O símbolo do quadrado significa que essa cena faz parte de um grupo, a claquete que é uma cena separada, o pergaminho que é um script e o olho indica a visibilidade.
+**Obs:** O símbolo do quadrado significa que essa cena faz parte de um grupo, a claquete que é uma cena separada, o pergaminho que é um script e o olho indica a visibilidade.
 Clique em algum desses para ver mais detalhes.  
 
 **Erros:**  
@@ -40,5 +40,5 @@ sofrer dano (drop de moedas estilo sonic), mas o efeito colateral é que quando 
 * ACREDITO QUE A MAIOR PARTE DOS ERROS SE DEVE À DIFERENÇA DE VERSÕES.
 * A MAIOR PARTE DAS INFORMAÇÕES RELEVANTES PODEM SER ENCONTRADAS NOS RESUMOS DISPONIVEÍS NO GOOGLE DRIVE.
 
-link: https://drive.google.com/drive/folders/1n84sA516w1iqNneqPOvXQcN9spUsxRVo?usp=drive_link
+**link:** https://drive.google.com/drive/folders/1n84sA516w1iqNneqPOvXQcN9spUsxRVo?usp=drive_link
 
