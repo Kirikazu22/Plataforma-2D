@@ -37,5 +37,6 @@ Esse erro se deve ao método demostrado no vídeo de número 31. Esse método co
 sofrer dano (drop de moedas estilo sonic), mas o efeito colateral é que quando é atingido, por exemplo prensado na parede por inimigo, ele a atravessa.  
   
 *Acredito que a maior parte dos erros se deve à diferença de versões.*  
+  
 *A maior parte das informações relevantes podem ser encontradas nos resumos disponiveís no google drive, também é possível encontar online informações sobre a linguagem utilizada 'GdScript'.*  
 **link:** https://drive.google.com/drive/folders/1n84sA516w1iqNneqPOvXQcN9spUsxRVo?usp=drive_link
