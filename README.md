@@ -18,20 +18,20 @@ Clique em algum desses para ver mais detalhes.
 ![image](https://github.com/user-attachments/assets/6de1da1e-8df1-42cb-99ae-9088191d747c)  
 
 **Erros:**  
-1. Morte do jogador
+1. Morte do jogador:
 O player não morre em condições normais, a exceção é quando cai no limbo (erro na criação do tween). Obs: Tween é uma transição que é demonstrada nos vídeos.
 
-2. Posição
+2. Posição:
 Drop de moedas das caixas em uma posição estranha.
 Drop de moedas do player em uma posição estranha.
 Quando cai no limbo é respawnado em uma posição estranha.
 
-3. Hurtbox
+3. Hurtbox:
 Player consegue subir na bola de fogo. Esse erro acontece, pois, a hurtbox do jogador não cobre a região dos pés, já que ele sofreria dano quando não deveria.
 Obs: já foi tentada uma verificação, para no caso do que está entrando em contato com a hurtbox for na verdade a hitbox dos inimigos. A tentativa foi feita
 criando um grupo que englobasse todas as hitbox, mas isso não foi efetivo para corrigir o erro.
 
-4. Player atravessa paredes quando é ferido
+4. Player atravessa paredes quando é ferido:
 Esse erro se deve ao método demostrado no vídeo de número 31. Esse método consiste em mudar o estado do player para que ele não pegue as moedas logo que
 sofrer dano (drop de moedas estilo sonic), mas o efeito colateral é que quando é atingido, por exemplo prensado na parede por inimigo, ele a atravessa.  
     
