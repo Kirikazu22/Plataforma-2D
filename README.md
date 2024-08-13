@@ -5,11 +5,7 @@ O sistema é composto por uma árvore de nós e cenas criadas separadamente. Alg
 **Para executar a cena principal - F5;**  
 **Para executar a cena atual - F6.**  
 
-**Funcionalidades do Sistema:** Para explicar o sistema é necessário primeiro explicar sua estrutura, que consiste em cenas separadas para a tela inicial, tela de fim de jogo e o menu de pausa, entre  outros que também são instaciadas através de scripts.
-Os scripts por sua vez constumam ser ligados aos nós principais de cenas que são instanciadas na cena principal, as exceções ficam por conta de nós que não
-possuem uma estrutura muito complexa e portanto não vale a pena que tenham uma cena separada, nesses casos o script é criado diratemente nesse nó na cena principal.
-Outro caso de exceção são os scripts singletons que devem ser pré-carregados no sistema, não estão diretamente ligados a nenhum nó e se encarregam de tratar
-funções e variáveos globais.  
+**Funcionalidades do Sistema:** Para explicar o sistema é necessário primeiro explicar sua estrutura, que consiste em cenas separadas para a tela inicial, tela de fim de jogo e o menu de pausa, entre outros que também são instanciadas através de scripts. Os scripts por sua vez costumam ser ligados aos nós principais de cenas que são instanciadas na cena principal, as exceções ficam por conta de nós que não possuem uma estrutura muito complexa e, portanto, não vale a pena que tenham uma cena separada, nesses casos o script é criado diretamente nesse nó na cena principal. Outro caso de exceção são os scripts singletos que devem ser pré-carregados no sistema, não estão diretamente ligados a nenhum nó e se encarregam de tratar funções e variáveis globais.  
 *- Funcionalidades básicas da Godot - Aula 1;*  
 *- Level Design(como orientar os objetos na cena principal) - Aula 2;*  
 *- Singletons - Aula 18.*  
@@ -31,7 +27,7 @@ Drop de moedas do player em uma posição estranha.
 Quando cai no limbo é respawnado em uma posição estranha.
 
 3. Hurtbox
-Player consegue subir na bola de fogo. Esse erro acontece pois a hurtbox do jogador não cobre a região dos pés, já que ele sofreria dano quando não deveria.
+Player consegue subir na bola de fogo. Esse erro acontece, pois, a hurtbox do jogador não cobre a região dos pés, já que ele sofreria dano quando não deveria.
 Obs: já foi tentada uma verificação, para no caso do que está entrando em contato com a hurtbox for na verdade a hitbox dos inimigos. A tentativa foi feita
 criando um grupo que englobasse todas as hitbox, mas isso não foi efetivo para corrigir o erro.
 
@@ -41,6 +37,7 @@ sofrer dano (drop de moedas estilo sonic), mas o efeito colateral é que quando 
     
 **- Acredito que a maior parte dos erros se deve à diferença de versões.** 
   
-**- A maior parte das informações relevantes podem ser encontradas nos resumos disponiveís no google drive, também é possível encontar online informações sobre a linguagem utilizada 'GdScript'.**  
+**- A maior parte das informações relevantes podem ser encontradas nos resumos disponíveis no google drive, também é possível encontrar online informações sobre a linguagem utilizada 'GdScript'.**  
   
 **Link:** https://drive.google.com/drive/folders/1n84sA516w1iqNneqPOvXQcN9spUsxRVo?usp=drive_link
+
