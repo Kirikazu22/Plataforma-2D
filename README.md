@@ -9,7 +9,7 @@ O sistema é composto por uma árvore de nós e cenas criadas separadamente. Alg
 Os scripts por sua vez constumam ser ligados aos nós principais de cenas que são instanciadas na cena principal, as exceções ficam por conta de nós que não
 possuem uma estrutura muito complexa e portanto não vale a pena que tenham uma cena separada, nesses casos o script é criado diratemente nesse nó na cena principal.  
 Outro caso de exceção são os scripts singletons que devem ser pré-carregados no sistema, não estão diretamente ligados a nenhum nó e se encarregam de tratar
-funções e variáveos globais. 
+funções e variáveos globais.  
 *Funcionalidades básicas da Godot - Aula 1;*  
 *Level Design(como orientar os objetos na cena principal) - Aula 2;*  
 *Singletons - Aula 18.*  
