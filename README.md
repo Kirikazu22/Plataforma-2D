@@ -30,4 +30,4 @@ criando um grupo que englobasse todas as hitbox, mas isso não foi efetivo para 
 Esse erro se deve ao método demostrado no vídeo de número 31. Esse método consiste em mudar o estado do player para que ele não pegue as moedas logo que...
 sofrer dano (drop de moedas estilo sonic), mas o efeito colateral é que quando é atingido, por exemplo prensado na parede por inimigo, ele a atravessa.
 
-* ACREDITO QUE A MAIOR PARTE DOS ERROS SE DEVA À DIFERENÇA DE VERSÕES.
+* ACREDITO QUE A MAIOR PARTE DOS ERROS SE DEVE À DIFERENÇA DE VERSÕES.
