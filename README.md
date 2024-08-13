@@ -34,8 +34,10 @@ criando um grupo que englobasse todas as hitbox, mas isso não foi efetivo para 
 
 4. Player atravessa paredes quando é ferido
 Esse erro se deve ao método demostrado no vídeo de número 31. Esse método consiste em mudar o estado do player para que ele não pegue as moedas logo que
-sofrer dano (drop de moedas estilo sonic), mas o efeito colateral é que quando é atingido, por exemplo prensado na parede por inimigo, ele a atravessa.
-
+sofrer dano (drop de moedas estilo sonic), mas o efeito colateral é que quando é atingido, por exemplo prensado na parede por inimigo, ele a atravessa.  
+  
+  
 * ACREDITO QUE A MAIOR PARTE DOS ERROS SE DEVE À DIFERENÇA DE VERSÕES.
 * A MAIOR PARTE DAS INFORMAÇÕES RELEVANTES PODEM SER ENCONTRADAS NOS RESUMOS DISPONIVEÍS NO GOOGLE DRIVE.
+link: https://drive.google.com/drive/folders/1n84sA516w1iqNneqPOvXQcN9spUsxRVo?usp=drive_link
 
