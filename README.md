@@ -39,4 +39,4 @@ sofrer dano (drop de moedas estilo sonic), mas o efeito colateral é que quando 
   
 * ACREDITO QUE A MAIOR PARTE DOS ERROS SE DEVE À DIFERENÇA DE VERSÕES.
 * A MAIOR PARTE DAS INFORMAÇÕES RELEVANTES PODEM SER ENCONTRADAS NOS RESUMOS DISPONIVEÍS NO GOOGLE DRIVE.
-* **link:** https://drive.google.com/drive/folders/1n84sA516w1iqNneqPOvXQcN9spUsxRVo?usp=drive_link
+**link:** https://drive.google.com/drive/folders/1n84sA516w1iqNneqPOvXQcN9spUsxRVo?usp=drive_link
