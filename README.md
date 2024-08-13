@@ -14,8 +14,8 @@ possuem uma estrutura muito complexa e portanto não vale a pena que tenham uma 
 Outro caso de exceção são os scripts singletons que devem ser pré-carregados no sistema, não estão diretamente ligados a nenhum nó e se encarregam de tratar...
 funções e variáveos globais. (Singletons-Aula 18,Funcionalidades básicas da Godot-Aula 1).
 
-![image](https://github.com/user-attachments/assets/b7c0e026-5110-4e92-9f14-0d491ddfd4bd)
-* Obs: O símbolo do quadrado significa que essa cena faz parte de um grupo, a claquete que é uma cena separada, o pergaminho que é um script e o olho indica a visibilidade.
+![image](https://github.com/user-attachments/assets/b7c0e026-5110-4e92-9f14-0d491ddfd4bd)  
+Obs: O símbolo do quadrado significa que essa cena faz parte de um grupo, a claquete que é uma cena separada, o pergaminho que é um script e o olho indica a visibilidade.
 Clique em algum desses para ver mais detalhes.
 
 
