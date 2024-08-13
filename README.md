@@ -1,6 +1,6 @@
 # Plataforma-2D
-
-  O sistema é composto por uma árvore de nós e cenas criadas separadamente, alguns dos nós são cenas, que mantêm a mesma estrutura de árvore de nós.  
+  
+O sistema é composto por uma árvore de nós e cenas criadas separadamente, alguns dos nós são cenas, que mantêm a mesma estrutura de árvore de nós.  
 Por exemplo, a cena do primeiro nível possui a cena do jogador e o jogador por sua vez possui sua estrutura de nós.
   
 **Para executar a cena principal - F5;**  
