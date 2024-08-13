@@ -6,7 +6,7 @@ Por exemplo, a cena do primeiro nível possui a cena do jogador e o jogador por 
 Para executar a cena principal - F5;  
 Para executar a cena atual - F6.
 
-**Funcionalidades do Sistema:  **
+**Funcionalidades do Sistema:**  
 Para explicar o sistema é necessário primeiro explicar sua estrutura.  
 Existem cenas separadas para a tela inicial, tela de fim de jogo e o menu de pausa, além de outros que também são instaciadas através de scripts.
 Os scripts por sua vez constumam ser ligados aos nós principais de cenas que são instanciadas na cena principal, as exceções ficam por conta de nós que não
